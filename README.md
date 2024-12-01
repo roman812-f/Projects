@@ -1,7 +1,16 @@
-#README
+#Базовые команды *git*
 
 
-## git config
+[git config](#cfg)
+[git init](#init)
+[git add](#add)
+[git commit](#commit)
+[git push](#push)
+[git status](#stat)
+
+
+# <a id="#cfg">git config</a>
+## Настройка конфигурации git
 
 ```bash
 git config user.name
@@ -10,20 +19,24 @@ git config remove_section
 git config rename_section
 git config alias
 ```
-###*flags*
+### *flags*
 - --global
 - --system
 - --h
 
 
 ---
-## git init
+# <a id="#init">git init</a>
+## Инициализация локального репозитория
+
 ```bash
 git init
 ```
 
 ---
-## git add
+# <a id="add">git add</a>
+## Добавление изменений в index
+
 ```bash
 git add someFile
 git add .
@@ -31,28 +44,34 @@ git add someDirectory
 ```
 
 ---
-## git commit
+# <a id="commit">git commit</a>
+## Коммит(утверждение) изменений
+
 ```bash
 git commit
 git commit someFile
 ```
-###*flags*
+### *flags*
 - -m
 - -a
 
 
 ---
-## git push
+# <a id="push">git push</a>
+## Отправление коммита в удаленный репозиторий
+
 ```bash
 git push origin "..."
 ```
 
-###*flags*
+### *flags*
 - -u
 
 
 ---
-##git status
+# <a id="stat">git status</a>
+## Статус репозитория
+
 ```bash
 git status
 ```
