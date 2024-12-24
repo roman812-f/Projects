@@ -1,12 +1,17 @@
 #Базовые команды *git*
 
 
-[git config](#cfg)
-[git init](#init)
-[git add](#add)
-[git commit](#commit)
-[git push](#push)
-[git status](#stat)
+- [git config](#cfg)
+
+- [git init](#init)
+
+- [git add](#add)
+
+- [git commit](#commit)
+
+- [git push](#push)
+
+- [git status](#stat)
 
 
 # <a id="#cfg">git config</a>
