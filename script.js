@@ -1,7 +1,7 @@
 function countSumm(_buyers) {
   let totalSumm = 0;
   _buyers.forEach(purchaseSumm => {
-    summ += purchaseSumm;
+    totalSumm += purchaseSumm;
   });
   return totalSumm;
 }
